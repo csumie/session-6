@@ -1,0 +1,21 @@
+{
+  "name": "recipe1210",
+  "title": "Guacamole",
+  "date": "2014-09-01",
+  "description": "Guacamole is an avocado-based dip or salad first created by the Aztecs in what is now Mexico. In addition to its use in modern Mexican cuisine, it has also become part of American cuisine as a dip, condiment and salad ingredient.",
+  "mainImageUrl": "guacamole1.jpg",
+  "images": [
+    "guacamole1.jpg",
+    "guacamole2.jpg",
+    "guacamole3.jpg",
+    "guacamole4.jpg"
+  ],
+  "ingredients": [
+    "avocado",
+    "red onion",
+    "garlic",
+    "lime",
+    "salt",
+    "jalapeno"
+  ]
+}

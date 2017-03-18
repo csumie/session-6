@@ -1,0 +1,23 @@
+{
+  "name": "recipe1404",
+  "title": "Pho Noodle Soup",
+  "date": "2013-09-01",
+  "description": "Pho is a Vietnamese noodle soup consisting of broth, rice noodles called bánh phở, a few herbs, and meat, primarily made with either beef or chicken.",
+  "mainImageUrl": "pho1.jpg",
+  "images": [
+    "pho1.jpg",
+    "pho2.jpg",
+    "pho3.jpg",
+    "pho4.jpg"
+  ],
+  "ingredients": [
+    "dried noodles",
+    "beef",
+    "ginger",
+    "onions",
+    "chili pepper",
+    "garlic",
+    "stock", 
+    "salt"
+  ]
+}

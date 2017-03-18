@@ -1,0 +1,28 @@
+<div class="wrap">
+  <span>
+    Search: <input ng-model=" $ctrl.query " />
+  </span>
+  
+  <span>
+    Sort by:
+    <select ng-model="$ctrl.orderProp">
+    <option value="rating">Rating</option>
+    <option value="date">Newest</option>
+  </select>
+  </span>
+
+</div>
+
+<div class="wrap">
+  <ul>
+    <li ng-repeat="review in $ctrl.reviews  | filter:$ctrl.query | orderBy:$ctrl.orderProp">
+      <img ng-src="img/reviews/{{ review.image }}" />
+      <div>
+        <h1><a href="reviews/{{ review.name }}">{{ review.location }}</a></h1>
+        <p>{{ review.date }}</p>
+        <p><img ng-src="img/reviews/{{ review.rating }}">
+        <p>{{ review.review }}</p>
+      </div>
+    </li>
+  </ul>
+</div>
